@@ -80,20 +80,23 @@ async def new_listing(listing: dict):
             status = send_sms(buyer["phone"], msg)
             fired.append({"buyer": buyer["name"], "score": score, "status": status})
 
-    # Log to alerts.json
+    # Log to alerts.json (wrapped in try-except for Vercel's read-only filesystem)
     log_entry = {
         "timestamp": str(datetime.datetime.now()),
         "listing": listing,
         "alerts_fired": fired
     }
     try:
-        with open("alerts.json", "r") as f:
-            logs = json.load(f)
-    except FileNotFoundError:
-        logs = []
-    logs.append(log_entry)
-    with open("alerts.json", "w") as f:
-        json.dump(logs, f, indent=2)
+        try:
+            with open("alerts.json", "r") as f:
+                logs = json.load(f)
+        except FileNotFoundError:
+            logs = []
+        logs.append(log_entry)
+        with open("alerts.json", "w") as f:
+            json.dump(logs, f, indent=2)
+    except Exception as e:
+        print(f"Skipping log file write due to read-only filesystem: {e}")
 
     return JSONResponse({"matched": len(fired), "alerts": fired})
 
