@@ -1,8 +1,8 @@
 [
   {
     "id": "B001",
-    "name": "Priya",
-    "phone": "+12345678900",
+    "name": "chaitanya",
+    "phone": "+91 9390614931",
     "city": "Pasadena",
     "budget_max": 700000,
     "beds_min": 3,
@@ -11,10 +11,46 @@
   {
     "id": "B002",
     "name": "Rahul",
-    "phone": "+19876543210",
+    "phone": "+91 9966855639",
     "city": "Pasadena",
     "budget_max": 650000,
     "beds_min": 2,
     "type": "condo"
+  },
+  {
+    "id": "B003",
+    "name": "Sarah",
+    "phone": "+15551234567",
+    "city": "Los Angeles",
+    "budget_max": 800000,
+    "beds_min": 3,
+    "type": "single-family"
+  },
+  {
+    "id": "B004",
+    "name": "Mike",
+    "phone": "+15559876543",
+    "city": "Pasadena",
+    "budget_max": 400000,
+    "beds_min": 1,
+    "type": "condo"
+  },
+  {
+    "id": "B005",
+    "name": "Elena",
+    "phone": "+15554443333",
+    "city": "Pasadena",
+    "budget_max": 1200000,
+    "beds_min": 5,
+    "type": "single-family"
+  },
+  {
+    "id": "B006",
+    "name": "David",
+    "phone": "+15558889999",
+    "city": "Pasadena",
+    "budget_max": 649000,
+    "beds_min": 3,
+    "type": "single-family"
   }
 ]

@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from twilio.rest import Client
 from dotenv import load_dotenv
 import json
@@ -8,6 +8,10 @@ import datetime
 
 load_dotenv()
 app = FastAPI()
+
+@app.get("/")
+async def root():
+    return RedirectResponse(url="/demo")
 
 # Fallback SMS Adapter as per issues.md logic
 try:
