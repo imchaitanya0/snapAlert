@@ -1,0 +1,127 @@
+[
+  {
+    "timestamp": "2026-06-06 11:27:41.209298",
+    "listing": {
+      "id": "L999",
+      "address": "123 Oak Street, Pasadena, CA",
+      "city": "Pasadena",
+      "price": 649000,
+      "beds": 3,
+      "type": "single-family"
+    },
+    "alerts_fired": [
+      {
+        "buyer": "chaitanya",
+        "score": 100,
+        "status": "sent"
+      },
+      {
+        "buyer": "Rahul",
+        "score": 90,
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06 11:27:57.032516",
+    "listing": {
+      "id": "L999",
+      "address": "123 Oak Street, Pasadena, CA",
+      "city": "Pasadena",
+      "price": 649000,
+      "beds": 3,
+      "type": "single-family"
+    },
+    "alerts_fired": [
+      {
+        "buyer": "chaitanya",
+        "score": 100,
+        "status": "sent"
+      },
+      {
+        "buyer": "Rahul",
+        "score": 90,
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06 11:32:42.682990",
+    "listing": {
+      "id": "L999",
+      "address": "123 Oak Street, Pasadena, CA",
+      "city": "Pasadena",
+      "price": 649000,
+      "beds": 3,
+      "type": "single-family"
+    },
+    "alerts_fired": [
+      {
+        "buyer": "chaitanya",
+        "score": 100,
+        "status": "sent"
+      },
+      {
+        "buyer": "Rahul",
+        "score": 90,
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06 11:36:10.242936",
+    "listing": {
+      "id": "L999",
+      "address": "123 Oak Street, Pasadena, CA",
+      "city": "Pasadena",
+      "price": 649000,
+      "beds": 3,
+      "type": "single-family"
+    },
+    "alerts_fired": [
+      {
+        "buyer": "chaitanya",
+        "score": 100,
+        "status": "sent"
+      },
+      {
+        "buyer": "Rahul",
+        "score": 90,
+        "status": "simulated"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06 11:56:09.518964",
+    "listing": {
+      "id": "L999",
+      "address": "123 Oak Street, Pasadena, CA",
+      "city": "Pasadena",
+      "price": 649000,
+      "beds": 3,
+      "type": "single-family"
+    },
+    "alerts_fired": [
+      {
+        "buyer": "chaitanya",
+        "score": 100,
+        "status": "sent"
+      },
+      {
+        "buyer": "Rahul",
+        "score": 90,
+        "status": "simulated"
+      },
+      {
+        "buyer": "Elena",
+        "score": 80,
+        "status": "simulated"
+      },
+      {
+        "buyer": "David",
+        "score": 100,
+        "status": "simulated"
+      }
+    ]
+  }
+]
