@@ -1,0 +1,20 @@
+[
+  {
+    "id": "B001",
+    "name": "Priya",
+    "phone": "+12345678900",
+    "city": "Pasadena",
+    "budget_max": 700000,
+    "beds_min": 3,
+    "type": "single-family"
+  },
+  {
+    "id": "B002",
+    "name": "Rahul",
+    "phone": "+19876543210",
+    "city": "Pasadena",
+    "budget_max": 650000,
+    "beds_min": 2,
+    "type": "condo"
+  }
+]
